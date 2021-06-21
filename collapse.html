@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Collapse</h1>
+        <p>In Bootstrap Collapse is used to do hide or show something
+             while clicking the link or button</p>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">
+            Life of Paul !
+        </button>
+        <div id="demo" class="collapse">
+            Mr.S.Paul Prabhakaran was born on 11<sup>th</sup>November of 1997.
+            He was born in sivanthi hospital in kanyakumari.
+            Now he is 23 years old and currently getting trained in Lintcloud. 
+        </div>  
+        <br><br><br><br><br><br><br>
+        <h2>Multiple collapse using class "accordian"</h2>
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header">
+                    <a class="card-link" data-toggle="collapse" href="#collone">Name & Details</a>
+                </div>
+                <div class="collapse show" id="collone" data-parent="#accordion">
+                   <div class="card-body">
+                    My name is S.Paul Prabhakaran.<br> I'm from Vallioor.<br> I'm an engineering Graduate specialized in 
+                    Computer Science 
+                   </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#colltwo">Age & Occupation</a>
+                </div>
+                <div class="collapse" id="colltwo" data-parent="#accordion">
+                   <div class="card-body">
+                    I'm 23 years old .<br> Now I'm currently getting trained in Lintcloud
+                   </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collthree">Hobbies & Favourites</a>
+                </div>
+                <div class="collapse" id="collthree" data-parent="#accordion">
+                   <div class="card-body">
+                    My Hobbies are watching cricket, listening to music and playing keyboard<br>
+                    I like to play cricket
+                   </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

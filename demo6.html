@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+      .buttonhov button:hover
+      {
+         background-color: black;
+      }
+      .dropdown-menu a:hover
+      {
+        background-color: black;
+        color:white;
+      }
+     
+  </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="btn-group btn-group-lg bg-secondary pr-4 fixed-top buttonhov">
+            <button type="button" class="btn btn-secondary ">
+                <a href="https://www.w3schools.com/html/default.asp" style="text-decoration: none; color: white; ;">HTML</a>
+            </button>
+            <button type="button" class="btn">
+                <a href="https://www.w3schools.com/css/default.asp" style="text-decoration: none; color: white;">CSS</a>
+            </button>
+            <button type="button" class="btn">
+                <a href="https://www.w3schools.com/js/default.asp" style="text-decoration: none; color: white;">JAVASCRIPT</a>
+            </button>
+            <button type="button" class="btn">
+                <a href="https://www.w3schools.com/sql/default.asp" style="text-decoration: none; color: white;">SQL</a>
+            </button>
+            <button type="button" class="btn">
+                <a href="https://www.w3schools.com/python/default.asp" style="text-decoration: none; color: white;">PYTHON</a>
+            </button>
+            <button type="button" class="btn">
+                <a href="https://www.w3schools.com/bootstrap4/default.asp" style="text-decoration: none; color: white;">BOOTSTRAP</a>
+            </button>
+            <button type="button" class="btn">
+                <a href="https://www.w3schools.com/howto/default.asp" style="text-decoration: none; color: white;">HOW TO</a>
+            </button>
+            <div class="btn-group-lg">
+                <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown" style="color:white">
+                  <a style="text-decoration: none; color: white;">MORE</a>
+                </button>
+                <div class="dropdown-menu" style="background-color: lightgrey;">
+                    <a class="dropdown-item" href="#">Link1</a>
+                    <a class="dropdown-item" href="#">Link2</a>
+                    <a class="dropdown-item" href="#">Link3</a>
+                </div>
+            </div>
+            <div class="btn-group-lg">
+                <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown" style="color: white;">
+                    <a style="text-decoration: none; color: white;">REFERNCES</a>
+                </button>
+                <div class="dropdown-menu" style="background-color: lightgrey;">
+                    <a class="dropdown-item" href="https://www.w3schools.com/html/default.asp">HTML</a>
+                    <a class="dropdown-item" href="https://www.w3schools.com/css/default.asp">CSS</a>
+                    <a class="dropdown-item" href="https://www.w3schools.com/bootstrap4/default.asp">BOOTSTRAP</a>
+                </div>
+            </div>
+            <button type="button" class="btn">
+                <a href="https://www.w3schools.com/cert/default.asp" style="text-decoration: none; color: white;">CERTIFICATE</a>
+            </button>
+    </div>
+</body>

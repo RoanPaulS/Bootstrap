@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Navigation List</h1>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled link</a>
+            </li>
+        </ul>
+        <h2>Nav</h2>
+        <p>Left-aligned nav (default):</p>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        
+        <p class="text-center">Centered nav:</p>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+          
+        <p class="text-right">Right-aligned nav:</p>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <h2>Vertical Nav</h2>
+  <p>Use the .flex-column class to create a vertical nav:</p>
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Disabled</a>
+    </li>
+  </ul>
+  <h2>Navigation Tabs</h2>
+  <p>Turn the nav menu into navigation tabs with the .nav nav-tabs class. Add the active class to the active/current link. If you want the tabs to be togglable, see the last example on the tutorial page.</p>
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Disabled</a>
+    </li>
+  </ul>
+  <h2>Navigation Pills</h2>
+  <p>Turn the nav menu into navigation pills with the .nav nav-pills class:</p>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Disabled</a>
+    </li>
+  </ul>
+  <h2>Justified Tabs/Pills</h2>
+  <p>To justify tabs/pills (equal width), use the .nav-justified class:</p>
+  <ul class="nav nav-pills nav-justified">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Disabled</a>
+    </li>
+  </ul><br>
+
+  <p>Justified tabs:</p>
+  <ul class="nav nav-tabs nav-justified">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Disabled</a>
+    </li>
+  </ul>
+  <h2>Pills with Dropdown</h2>
+  <ul class="nav nav-pills">
+      <li class="nav-item">
+          <a href="#" class="nav-link active">Active</a>
+      </li>
+      <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Dropdown</a>
+          <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">Link1</a>
+              <a href="#" class="dropdown-item">Link1</a>
+              <a href="#" class="dropdown-item">Link1</a>
+          </div>
+      </li>
+      <li class="nav-item">
+          <a href="#" class="nav-link">Link</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link disabled">Disabled Link</a>
+    </li>
+  </ul>
+  <h2>Tabs with Dropdown</h2>
+  <ul class="nav nav-tabs">
+      <li class="nav-item">
+          <a href="#" class="nav-link active">Active</a>
+      </li>
+      <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+          <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">Link1</a>
+              <a href="#" class="dropdown-item">Link2</a>
+              <a href="#" class="dropdown-item">Link1</a>
+          </div>
+      </li>
+      <li class="nav-item">
+          <a href="#" class="nav-link">Link</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled Link</a>
+      </li>
+  </ul>
+  <h1>Togglable tabs</h1>
+  <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#home2">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#menu12">Menu</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#menu22">Menu</a>
+    </li>
+  </ul>
+  <div class="tab-content">
+      <div class="container tab-pane active" id="home2">
+          <h2>Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="container tab-pane fade" id="menu12">
+        <h3>Menu 1</h3>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="container tab-pane fade" id="menu22">
+        <h3>Menu 2</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+      </div>
+  </div>
+  <h1>Togglable pills</h1>
+  <ul class="nav nav-pills" role="tablist">
+      <li class="nav-item">
+          <a class="nav-link active" data-toggle="pill" href="#home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="pill" href="#menu1">Menu</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="pill" href="#menu2">Menu</a>
+    </li>
+  </ul>
+  <div class="tab-content">
+      <div class="container tab-pane active" id="home">
+          <h2>Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="container tab-pane fade" id="menu1">
+        <h3>Menu 1</h3>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="container tab-pane fade" id="menu2">
+        <h3>Menu 2</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+      </div>
+  </div>
+    </div>
+</body>
